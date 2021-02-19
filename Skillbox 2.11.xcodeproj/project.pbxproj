@@ -15,6 +15,7 @@
 		ACB2D0F125DCF7510077E589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB2D0EF25DCF7510077E589 /* LaunchScreen.storyboard */; };
 		ACB2D0FC25DCF7510077E589 /* Skillbox_2_11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2D0FB25DCF7510077E589 /* Skillbox_2_11Tests.swift */; };
 		ACB2D10725DCF7520077E589 /* Skillbox_2_11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2D10625DCF7520077E589 /* Skillbox_2_11UITests.swift */; };
+		ACB2D13225DF943F0077E589 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2D13125DF943F0077E589 /* CongratsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ACB2D10225DCF7510077E589 /* Skillbox 2.11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skillbox 2.11UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB2D10625DCF7520077E589 /* Skillbox_2_11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox_2_11UITests.swift; sourceTree = "<group>"; };
 		ACB2D10825DCF7520077E589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB2D13125DF943F0077E589 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				ACB2D0E425DCF7510077E589 /* AppDelegate.swift */,
 				ACB2D0E625DCF7510077E589 /* SceneDelegate.swift */,
 				ACB2D0E825DCF7510077E589 /* ViewController.swift */,
+				ACB2D13125DF943F0077E589 /* CongratsViewController.swift */,
 				ACB2D0EA25DCF7510077E589 /* Main.storyboard */,
 				ACB2D0ED25DCF7510077E589 /* Assets.xcassets */,
 				ACB2D0EF25DCF7510077E589 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				ACB2D0E925DCF7510077E589 /* ViewController.swift in Sources */,
 				ACB2D0E525DCF7510077E589 /* AppDelegate.swift in Sources */,
 				ACB2D0E725DCF7510077E589 /* SceneDelegate.swift in Sources */,
+				ACB2D13225DF943F0077E589 /* CongratsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
