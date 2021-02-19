@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="977" y="78"/>
         </scene>
-        <!--View Controller-->
+        <!--Congrats View Controller-->
         <scene sceneID="Ey9-T0-7Po">
             <objects>
-                <viewController id="9sj-5h-DOQ" sceneMemberID="viewController">
+                <viewController id="9sj-5h-DOQ" customClass="CongratsViewController" customModule="Skillbox_2_11" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9RC-Gb-VbJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
