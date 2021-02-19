@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3FK-Rq-EwV">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3FK-Rq-EwV">
                                 <rect key="frame" x="20" y="397" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Wws-4j-aBu"/>
@@ -27,7 +27,7 @@
                                     <action selector="loginTextFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Rsh-FE-dnV"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mkl-Hb-lRG">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mkl-Hb-lRG">
                                 <rect key="frame" x="20" y="439" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="bXx-xB-N6l"/>

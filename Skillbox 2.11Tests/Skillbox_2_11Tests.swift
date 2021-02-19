@@ -19,6 +19,17 @@ class Skillbox_2_11Tests: XCTestCase {
     }
 
     func testExample() throws {
+        
+        XCTAssert("artem@d.tr".isValid(.email))
+        XCTAssert("a-tem@dv.tr".isValid(.email))
+        XCTAssert(!"artem@@dv.ccccccc".isValid(.email))
+        XCTAssert(!"artem@.dv.tr".isValid(.email))
+        
+        XCTAssert("Artem4".isValid(.password))
+        XCTAssert("artEm4e".isValid(.password))
+        XCTAssert(!"!dghgv4".isValid(.password))
+        XCTAssert(!"jjA4r".isValid(.password))
+        
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

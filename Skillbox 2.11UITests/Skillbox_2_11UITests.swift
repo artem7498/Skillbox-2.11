@@ -26,7 +26,63 @@ class Skillbox_2_11UITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+//        Тест на обработку неправильных данных :
+        
+// 1 тест (Были проблемы с написанием текста в строку пароль - не открывалась клавиатура, а потом если открывалась то не закрывалась, решено вставкой текста)
+        app.textFields["login"].tap()
+        app.textFields["login"].typeText("AФФФtem6@dn.ru")
+//        app.textFields["password"].tap()
+//        app.textFields["password"].typeText("Artebf4")
+        let pasteboard = UIPasteboard.general
+        pasteboard.string = "HArtebf4"
+        app.textFields["password"].press(forDuration: 1.1)
+        app.menuItems.element(boundBy: 0).tap()
+        app.buttons["Войти"].tap()
+      
+        
+        //   2 ТЕСТ
+        
+//        app.textFields["login"].tap()
+//        app.textFields["login"].typeText("Artem6dn.ru")
+//        let ppasteboard = UIPasteboard.general
+//        ppasteboard.string = "HArtebf4"
+//        app.textFields["password"].press(forDuration: 1.1)
+//        app.menuItems.element(boundBy: 0).tap()
+//        app.buttons["Войти"].tap()
+   
+        //   3 ТЕСТ
+        
+//        app.textFields["login"].tap()
+//        app.textFields["login"].typeText("Artem@dn.ru")
+//        let ppasteboard = UIPasteboard.general
+//        ppasteboard.string = "H4"
+//        app.textFields["password"].press(forDuration: 1.1)
+//        app.menuItems.element(boundBy: 0).tap()
+//        app.buttons["Войти"].tap()
 
+        
+        //        Тесты на обработку неправильных данных :
+        
+//        app.textFields["login"].tap()
+//        app.textFields["login"].typeText("Artem6@dn.ru")
+//        let pasteboard = UIPasteboard.general
+//        pasteboard.string = "HArtebf4"
+//        app.textFields["password"].press(forDuration: 1.1)
+//        app.menuItems.element(boundBy: 0).tap()
+//        app.buttons["Войти"].tap()
+        
+//                app.textFields["login"].tap()
+//                app.textFields["login"].typeText("ArEMm6@dn.ru")
+//                let pasteboard = UIPasteboard.general
+//                pasteboard.string = "j655yYYYrtebf4"
+//                app.textFields["password"].press(forDuration: 1.1)
+//                app.menuItems.element(boundBy: 0).tap()
+//                app.buttons["Войти"].tap()
+        
+            //        app.navigationBars.buttons.element(boundBy: 0).tap()
+            //        app.buttons["Back"].tap()
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
